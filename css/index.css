@@ -1,0 +1,51 @@
+*
+{
+    color:white;
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(../images/background.png);
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header
+{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    color:white;
+    font-weight:bold;
+    font-size:3rem;
+    padding-right: 2rem;
+    text-transform:uppercase;
+    position:sticky;
+    top:0;
+}
+.container
+{
+    margin:1rem auto;
+    width:95%;
+    padding: 0.8rem;
+}
+.text-format
+{
+    font-size:1.2em;
+    text-align: justify;
+}
+.img
+{
+    border-radius:2rem;
+}
+
+
+
